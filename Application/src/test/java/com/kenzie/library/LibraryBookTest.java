@@ -120,7 +120,7 @@ public class LibraryBookTest {
 			assertEquals(true, book instanceof Book, "LibraryBook is instance of Book" );
 
 			//prepare methods
-			//Method setBookInfo = LibraryBook.class.getMethod("setBookInfo", String.class);
+			Method setBookInfo = LibraryBook.class.getMethod("setBookInfo", String.class);
 
 			Method setAuthor = LibraryBook.class.getMethod("setAuthor", String.class);
 			Method setTitle = LibraryBook.class.getMethod("setTitle", String.class);
