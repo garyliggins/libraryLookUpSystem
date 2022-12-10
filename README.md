@@ -1,3 +1,3 @@
-# Java - Designing Packages - Assessment
+Designing Packages - Assessment
 
-Follow the instructions on lms.kenzie.academy to complete this assignment.
+design for a library book lookup system that searches for book information online from the OpenLibrary API based on author and title and retrieves the ISBN and subject list.
